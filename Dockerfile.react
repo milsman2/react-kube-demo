@@ -1,3 +1,4 @@
+# Credit: https://github.com/miguelgrinberg/react-flask-app
 # This Dockerfile builds the React front end for nginx.
 # It also proxies /api requests to api:5000
 
