@@ -23,6 +23,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: react-kube-demo-amd64
+            name: react-kube-demo
             port:
               number: 80
