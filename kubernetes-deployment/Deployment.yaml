@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: react-kube-demo
+  namespace: react-kube-demo
+spec:
+  selector:
+    matchLabels:
+      app: react-kube-demo
+  replicas: 2 # tells deployment to run 2 pods matching the template
+  template:
+    metadata:
+      labels:
+        app: react-kube-demo
+      annotations:
+        linkerd.io/inject: enabled
+    spec:
+      nodeSelector:
+        nodeCategory: worker
+      containers:
+      - name: react-kube-demo
+        image: milsman2/react-kube-public-demo:v0.1
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
