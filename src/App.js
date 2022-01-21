@@ -5,13 +5,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>
-          Thank you. I cannot stress this enough. 
+          To those of you here to see the end product of my blog post, thank you.
         </h1>
         <h2>
-          Rachel.
+          But I would also like to set aside part of my deployed lab to thanking a few specifically.
         </h2>
         <p>
-          This first and foremost goes out to you.
+          Most of all, thank you to my wife, Rachel. 
         </p>
         <a
           className="App-link"
