@@ -1,0 +1,8 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: react-kube-demo
+  annotation:
+    linkerd.io/inject: enabled
+  labels:
+    name: react-kube-demo
