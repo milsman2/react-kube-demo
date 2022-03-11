@@ -14,15 +14,15 @@ spec:
   tls:
   - hosts:
     - thankyou.kanebroslab.com
-    secretName: precasttoolkit-production-tls-v2
+    secretName: thanks-production-tls-v1
   rules:
-  - host: precasttoolkit.com
+  - host: thankyou.kanebroslab.com
     http:
       paths:
       - path: /
         pathType: Prefix
         backend:
           service:
-            name: the-precast-toolkit
+            name: react-kube-demo
             port:
-              number: 8501
+              number: 80
