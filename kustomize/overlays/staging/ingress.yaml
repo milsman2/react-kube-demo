@@ -13,10 +13,10 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - thankyou.kanebroslab.com
+    - thankyou.staging.kanebroslab.com
     secretName: thanks-staging-tls-v1
   rules:
-  - host: thankyou.kanebroslab.com
+  - host: thankyou.staging.kanebroslab.com
     http:
       paths:
       - path: /
