@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: react-kube-demo
-  namespace: react-kube-demo
+  labels: react-kube-demo
 spec:
   selector:
     matchLabels:
