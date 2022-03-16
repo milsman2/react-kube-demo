@@ -8,13 +8,13 @@ metadata:
       proxy_set_header Origin "";
       proxy_hide_header l5d-remote-ip;
       proxy_hide_header l5d-server-id;
-    cert-manager.io/cluster-issuer: 'prod-issuer-amd64'
+    cert-manager.io/cluster-issuer: 'staging-issuer-amd64'
 spec:
   ingressClassName: nginx
   tls:
   - hosts:
     - thankyou.kanebroslab.com
-    secretName: thanks-production-tls-v2
+    secretName: thanks-staging-tls-v2
   rules:
   - host: thankyou.kanebroslab.com
     http:
