@@ -14,7 +14,7 @@ spec:
   tls:
   - hosts:
     - thankyou.kanebroslab.com
-    secretName: thanks-production-tls-v1
+    secretName: thanks-production-tls-v2
   rules:
   - host: thankyou.kanebroslab.com
     http:
