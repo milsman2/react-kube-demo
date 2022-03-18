@@ -2,5 +2,3 @@ kind: Namespace
 apiVersion: v1
 metadata:
   name: react-kube-demo-production
-  annotations:
-    linkerd.io/inject: enabled
