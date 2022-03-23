@@ -3,7 +3,6 @@ kind: Ingress
 metadata:
   name: react-kube-demo-staging
   annotations:
-    nginx.ingress.kubernetes.io/upstream-vhost: $service_name.$namespace.svc.cluster.local:$service_port
     cert-manager.io/cluster-issuer: 'staging-issuer-amd64'
 spec:
   ingressClassName: nginx
