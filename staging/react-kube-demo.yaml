@@ -23,4 +23,4 @@ spec:
     targetRevision: HEAD
     kustomize:
       images:
-      - milsman2/react-kube-demo:20c652ea06db053984da174f81f0bb2ea725f2c5
+      - milsman2/react-kube-demo:381d448067a5db388ca567e32320f4508416f0ca
