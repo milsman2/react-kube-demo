@@ -41,7 +41,7 @@ function App() {
           blog.kanebroslab.com
         </a>
         <h2>
-          - Miles // 1.20.22
+          - Miles // 10.16.22
         </h2>
       </header>
     </div>
